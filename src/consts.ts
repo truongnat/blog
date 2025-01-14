@@ -3,3 +3,4 @@
 
 export const SITE_TITLE = 'Truongnat Blogs';
 export const SITE_DESCRIPTION = 'Welcome to my website!';
+export const DEFAULT_SITE_URL = '/blog';
