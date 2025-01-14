@@ -9,6 +9,5 @@ export default defineConfig({
   	base: 'blog',
 	integrations: [mdx(), sitemap()],
 	redirects: {
-		'/': '/blog',
 	}
 });
