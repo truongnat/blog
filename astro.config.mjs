@@ -8,4 +8,7 @@ export default defineConfig({
 	site: 'https://truongnat.github.io/blog',
   	base: 'blog',
 	integrations: [mdx(), sitemap()],
+	redirects: {
+		'/': '/blog',
+	}
 });
