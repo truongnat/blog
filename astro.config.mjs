@@ -5,7 +5,7 @@ import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://truongnat.github.io',
+	site: 'https://truongnat.github.io/blog',
 	integrations: [mdx(), sitemap()],
 	base: '/blog',
 });
